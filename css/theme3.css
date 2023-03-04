@@ -1,0 +1,50 @@
+/* start default theme */
+.navbar-dark .navbar-brand span ,
+.navbar-dark .navbar-nav .show > .nav-link, .navbar-dark .navbar-nav .nav-link.active ,
+.dropdown-item:hover,
+.option-box .check ,
+.our-feature .box i ,
+.our-feature .box span ,
+.testimonials .carousel-caption h5 ,
+.price .plan ul li i.yes,
+.price .plan ul li i.help ,
+.our-team .container .person .icon i:hover , 
+.stats .row .stat:hover ,
+.footer h3 ,
+.footer .copyrigth span,
+.feature i,
+.our-team .container .person h4,
+.faq-ques .accordion-button:not(.collapsed){
+    color: #009aff;
+}
+html{
+    scrollbar-color:#009aff;
+}
+.dropdown-divider ,
+.carousel-indicators .active ,
+.main-title::before ,
+.main-title::after ,
+.option-box .color-option ul li,
+#scroll{
+    background-color: #009aff;
+}
+
+.dropdown-menu {
+    border-top: 1px solid #009aff;
+}
+.carousel-dark .carousel-indicators [data-bs-target]{
+    background-color: #009aff;
+    border: 1px solid #009aff;
+}
+.option-box .color-option{
+    border: 4px solid#009aff;
+}
+.price .plan .top{
+    outline: 2px solid #009aff;
+    background-color: #009aff;
+}
+.footer .img-thumbnail{
+    border: 1px solid #009aff;
+}
+
+/* end default theme */

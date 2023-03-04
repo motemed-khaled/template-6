@@ -1,0 +1,91 @@
+
+/* start overright bootstrap */
+/* start navbar */
+.navbar-dark .navbar-brand{
+    font-size: 25px;
+    margin-left: 100px;
+}
+@media(max-width:767px){
+    .navbar-dark .navbar-brand{
+        margin-left: 0px;
+    }
+}
+.navbar-nav{
+    margin-right: 100px;
+}
+.navbar-dark .navbar-nav .nav-link{
+    color: #fff;
+    margin-right: 20px;
+    transition: var(--main-transtion);
+    -webkit-transition: var(--main-transtion);
+    -moz-transition: var(--main-transtion);
+    -ms-transition: var(--main-transtion);
+    -o-transition: var(--main-transtion);
+}
+.dropdown-menu {
+    width: 300px;
+    background-color: var(--secondary-color);
+}
+.dropdown-menu[data-bs-popper]{
+    left: -220%;
+    top: 123%;
+    left: none;
+}
+.dropdown-item{
+    color: #fff;
+    width: 80%;
+    transition: var(--main-transtion);
+    -webkit-transition: var(--main-transtion);
+    -moz-transition: var(--main-transtion);
+    -ms-transition: var(--main-transtion);
+    -o-transition: var(--main-transtion);
+}
+.dropdown-item:hover{
+    background-color: var(--secondary-color);
+    max-width: 100%;
+    transform: translateX(20px);
+    -webkit-transform: translateX(20px);
+    -moz-transform: translateX(20px);
+    -ms-transform: translateX(20px);
+    -o-transform: translateX(20px);
+}
+/* end navbar */
+/* start carousel */
+.carousel-caption {
+    bottom: 6.25rem;
+    height: 250px;
+    background-color: rgb(0 0 0 / 0.5);
+}
+.header .carousel-caption h5{
+    padding: 25px 0 5px;
+    color:#fff;
+}
+.header .carousel-caption p{
+    color: #fff;
+    padding-top: 10px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media(max-width:767px){
+   .header .carousel-indicators{
+    display: none;
+   }
+}
+.carousel-dark .carousel-indicators [data-bs-target]{
+    width: 10px;
+    height: 10px;
+    opacity: 0.3;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.carousel-indicators .active{
+    opacity: 1 !important;
+}
+/* end carousel */
+
+
+/* end overright bootstrap */
